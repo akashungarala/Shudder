@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C458BFD22173CC7A00BA994C /* MoviePosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFD12173CC7A00BA994C /* MoviePosterCollectionViewCell.swift */; };
+		C458BFD32173CC7A00BA994C /* MoviePosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFD12173CC7A00BA994C /* MoviePosterCollectionViewCell.swift */; };
+		C458BFD42173CC7A00BA994C /* MoviePosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFD12173CC7A00BA994C /* MoviePosterCollectionViewCell.swift */; };
+		C458BFDA2173D03E00BA994C /* MoviePostersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFD92173D03E00BA994C /* MoviePostersCollectionViewController.swift */; };
+		C458BFDB2173D03E00BA994C /* MoviePostersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFD92173D03E00BA994C /* MoviePostersCollectionViewController.swift */; };
+		C458BFDC2173D03E00BA994C /* MoviePostersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFD92173D03E00BA994C /* MoviePostersCollectionViewController.swift */; };
+		C458BFDE2173D6F900BA994C /* MovieCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFDD2173D6F900BA994C /* MovieCategory.swift */; };
+		C458BFDF2173D6F900BA994C /* MovieCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFDD2173D6F900BA994C /* MovieCategory.swift */; };
+		C458BFE02173D6F900BA994C /* MovieCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFDD2173D6F900BA994C /* MovieCategory.swift */; };
+		C458BFE52173DA7400BA994C /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFE42173DA7400BA994C /* FlickrAPI.swift */; };
+		C458BFE62173DA7400BA994C /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFE42173DA7400BA994C /* FlickrAPI.swift */; };
+		C458BFE72173DA7400BA994C /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFE42173DA7400BA994C /* FlickrAPI.swift */; };
+		C458BFF121745ADA00BA994C /* FeaturedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFF021745ADA00BA994C /* FeaturedTableViewController.swift */; };
+		C458BFF3217487AC00BA994C /* MoviePoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFF2217487AC00BA994C /* MoviePoster.swift */; };
+		C458BFF4217487AC00BA994C /* MoviePoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFF2217487AC00BA994C /* MoviePoster.swift */; };
+		C458BFF5217487AC00BA994C /* MoviePoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C458BFF2217487AC00BA994C /* MoviePoster.swift */; };
+		C4AA9ED42172811600804CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA9ED32172811600804CC6 /* AppDelegate.swift */; };
+		C4AA9ED92172811600804CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AA9ED72172811600804CC6 /* Main.storyboard */; };
+		C4AA9EDB2172811800804CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4AA9EDA2172811800804CC6 /* Assets.xcassets */; };
+		C4AA9EDE2172811800804CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4AA9EDC2172811800804CC6 /* LaunchScreen.storyboard */; };
+		C4AA9EE92172811800804CC6 /* ShudderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA9EE82172811800804CC6 /* ShudderTests.swift */; };
+		C4AA9EF42172811800804CC6 /* ShudderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA9EF32172811800804CC6 /* ShudderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4AA9EE52172811800804CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4AA9EC82172811600804CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4AA9ECF2172811600804CC6;
+			remoteInfo = Shudder;
+		};
+		C4AA9EF02172811800804CC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4AA9EC82172811600804CC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4AA9ECF2172811600804CC6;
+			remoteInfo = Shudder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C458BFD12173CC7A00BA994C /* MoviePosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePosterCollectionViewCell.swift; sourceTree = "<group>"; };
+		C458BFD92173D03E00BA994C /* MoviePostersCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePostersCollectionViewController.swift; sourceTree = "<group>"; };
+		C458BFDD2173D6F900BA994C /* MovieCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategory.swift; sourceTree = "<group>"; };
+		C458BFE42173DA7400BA994C /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		C458BFF021745ADA00BA994C /* FeaturedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedTableViewController.swift; sourceTree = "<group>"; };
+		C458BFF2217487AC00BA994C /* MoviePoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePoster.swift; sourceTree = "<group>"; };
+		C4AA9ED02172811600804CC6 /* Shudder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shudder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AA9ED32172811600804CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4AA9ED82172811600804CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4AA9EDA2172811800804CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4AA9EDD2172811800804CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4AA9EDF2172811800804CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AA9EE42172811800804CC6 /* ShudderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShudderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AA9EE82172811800804CC6 /* ShudderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShudderTests.swift; sourceTree = "<group>"; };
+		C4AA9EEA2172811800804CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AA9EEF2172811800804CC6 /* ShudderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShudderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AA9EF32172811800804CC6 /* ShudderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShudderUITests.swift; sourceTree = "<group>"; };
+		C4AA9EF52172811800804CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4AA9ECD2172811600804CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA9EE12172811800804CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA9EEC2172811800804CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C458BFE12173D7B600BA994C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C458BFF021745ADA00BA994C /* FeaturedTableViewController.swift */,
+				C458BFD92173D03E00BA994C /* MoviePostersCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C458BFE22173D7C000BA994C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C458BFD12173CC7A00BA994C /* MoviePosterCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C458BFE32173D7CB00BA994C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C458BFDD2173D6F900BA994C /* MovieCategory.swift */,
+				C458BFF2217487AC00BA994C /* MoviePoster.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C458C03821752E7000BA994C /* Flickr */ = {
+			isa = PBXGroup;
+			children = (
+				C458BFE42173DA7400BA994C /* FlickrAPI.swift */,
+			);
+			path = Flickr;
+			sourceTree = "<group>";
+		};
+		C4AA9EC72172811600804CC6 = {
+			isa = PBXGroup;
+			children = (
+				C4AA9ED22172811600804CC6 /* Shudder */,
+				C4AA9EE72172811800804CC6 /* ShudderTests */,
+				C4AA9EF22172811800804CC6 /* ShudderUITests */,
+				C4AA9ED12172811600804CC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4AA9ED12172811600804CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA9ED02172811600804CC6 /* Shudder.app */,
+				C4AA9EE42172811800804CC6 /* ShudderTests.xctest */,
+				C4AA9EEF2172811800804CC6 /* ShudderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4AA9ED22172811600804CC6 /* Shudder */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA9ED32172811600804CC6 /* AppDelegate.swift */,
+				C458C03821752E7000BA994C /* Flickr */,
+				C458BFE12173D7B600BA994C /* Controller */,
+				C458BFE22173D7C000BA994C /* View */,
+				C458BFE32173D7CB00BA994C /* Model */,
+				C4AA9ED72172811600804CC6 /* Main.storyboard */,
+				C4AA9EDC2172811800804CC6 /* LaunchScreen.storyboard */,
+				C4AA9EDA2172811800804CC6 /* Assets.xcassets */,
+				C4AA9EDF2172811800804CC6 /* Info.plist */,
+			);
+			path = Shudder;
+			sourceTree = "<group>";
+		};
+		C4AA9EE72172811800804CC6 /* ShudderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA9EE82172811800804CC6 /* ShudderTests.swift */,
+				C4AA9EEA2172811800804CC6 /* Info.plist */,
+			);
+			path = ShudderTests;
+			sourceTree = "<group>";
+		};
+		C4AA9EF22172811800804CC6 /* ShudderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA9EF32172811800804CC6 /* ShudderUITests.swift */,
+				C4AA9EF52172811800804CC6 /* Info.plist */,
+			);
+			path = ShudderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4AA9ECF2172811600804CC6 /* Shudder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AA9EF82172811800804CC6 /* Build configuration list for PBXNativeTarget "Shudder" */;
+			buildPhases = (
+				C4AA9ECC2172811600804CC6 /* Sources */,
+				C4AA9ECD2172811600804CC6 /* Frameworks */,
+				C4AA9ECE2172811600804CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shudder;
+			productName = Shudder;
+			productReference = C4AA9ED02172811600804CC6 /* Shudder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4AA9EE32172811800804CC6 /* ShudderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AA9EFB2172811800804CC6 /* Build configuration list for PBXNativeTarget "ShudderTests" */;
+			buildPhases = (
+				C4AA9EE02172811800804CC6 /* Sources */,
+				C4AA9EE12172811800804CC6 /* Frameworks */,
+				C4AA9EE22172811800804CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4AA9EE62172811800804CC6 /* PBXTargetDependency */,
+			);
+			name = ShudderTests;
+			productName = ShudderTests;
+			productReference = C4AA9EE42172811800804CC6 /* ShudderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4AA9EEE2172811800804CC6 /* ShudderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AA9EFE2172811800804CC6 /* Build configuration list for PBXNativeTarget "ShudderUITests" */;
+			buildPhases = (
+				C4AA9EEB2172811800804CC6 /* Sources */,
+				C4AA9EEC2172811800804CC6 /* Frameworks */,
+				C4AA9EED2172811800804CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4AA9EF12172811800804CC6 /* PBXTargetDependency */,
+			);
+			name = ShudderUITests;
+			productName = ShudderUITests;
+			productReference = C4AA9EEF2172811800804CC6 /* ShudderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4AA9EC82172811600804CC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Akash Ungarala";
+				TargetAttributes = {
+					C4AA9ECF2172811600804CC6 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					C4AA9EE32172811800804CC6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C4AA9ECF2172811600804CC6;
+					};
+					C4AA9EEE2172811800804CC6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C4AA9ECF2172811600804CC6;
+					};
+				};
+			};
+			buildConfigurationList = C4AA9ECB2172811600804CC6 /* Build configuration list for PBXProject "Shudder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4AA9EC72172811600804CC6;
+			productRefGroup = C4AA9ED12172811600804CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4AA9ECF2172811600804CC6 /* Shudder */,
+				C4AA9EE32172811800804CC6 /* ShudderTests */,
+				C4AA9EEE2172811800804CC6 /* ShudderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4AA9ECE2172811600804CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AA9EDE2172811800804CC6 /* LaunchScreen.storyboard in Resources */,
+				C4AA9EDB2172811800804CC6 /* Assets.xcassets in Resources */,
+				C4AA9ED92172811600804CC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA9EE22172811800804CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA9EED2172811800804CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4AA9ECC2172811600804CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C458BFDA2173D03E00BA994C /* MoviePostersCollectionViewController.swift in Sources */,
+				C458BFF121745ADA00BA994C /* FeaturedTableViewController.swift in Sources */,
+				C458BFD22173CC7A00BA994C /* MoviePosterCollectionViewCell.swift in Sources */,
+				C458BFDE2173D6F900BA994C /* MovieCategory.swift in Sources */,
+				C458BFF3217487AC00BA994C /* MoviePoster.swift in Sources */,
+				C458BFE52173DA7400BA994C /* FlickrAPI.swift in Sources */,
+				C4AA9ED42172811600804CC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA9EE02172811800804CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C458BFDB2173D03E00BA994C /* MoviePostersCollectionViewController.swift in Sources */,
+				C458BFD32173CC7A00BA994C /* MoviePosterCollectionViewCell.swift in Sources */,
+				C458BFDF2173D6F900BA994C /* MovieCategory.swift in Sources */,
+				C458BFE62173DA7400BA994C /* FlickrAPI.swift in Sources */,
+				C4AA9EE92172811800804CC6 /* ShudderTests.swift in Sources */,
+				C458BFF4217487AC00BA994C /* MoviePoster.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AA9EEB2172811800804CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C458BFDC2173D03E00BA994C /* MoviePostersCollectionViewController.swift in Sources */,
+				C458BFD42173CC7A00BA994C /* MoviePosterCollectionViewCell.swift in Sources */,
+				C458BFE02173D6F900BA994C /* MovieCategory.swift in Sources */,
+				C458BFE72173DA7400BA994C /* FlickrAPI.swift in Sources */,
+				C4AA9EF42172811800804CC6 /* ShudderUITests.swift in Sources */,
+				C458BFF5217487AC00BA994C /* MoviePoster.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4AA9EE62172811800804CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4AA9ECF2172811600804CC6 /* Shudder */;
+			targetProxy = C4AA9EE52172811800804CC6 /* PBXContainerItemProxy */;
+		};
+		C4AA9EF12172811800804CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4AA9ECF2172811600804CC6 /* Shudder */;
+			targetProxy = C4AA9EF02172811800804CC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4AA9ED72172811600804CC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AA9ED82172811600804CC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4AA9EDC2172811800804CC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4AA9EDD2172811800804CC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4AA9EF62172811800804CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4AA9EF72172811800804CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4AA9EF92172811800804CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83HXKRAAE8;
+				INFOPLIST_FILE = Shudder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akashungarala.Shudder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4AA9EFA2172811800804CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83HXKRAAE8;
+				INFOPLIST_FILE = Shudder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akashungarala.Shudder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4AA9EFC2172811800804CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83HXKRAAE8;
+				INFOPLIST_FILE = ShudderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akashungarala.ShudderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shudder.app/Shudder";
+			};
+			name = Debug;
+		};
+		C4AA9EFD2172811800804CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83HXKRAAE8;
+				INFOPLIST_FILE = ShudderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akashungarala.ShudderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shudder.app/Shudder";
+			};
+			name = Release;
+		};
+		C4AA9EFF2172811800804CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83HXKRAAE8;
+				INFOPLIST_FILE = ShudderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akashungarala.ShudderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shudder;
+			};
+			name = Debug;
+		};
+		C4AA9F002172811800804CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83HXKRAAE8;
+				INFOPLIST_FILE = ShudderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = akashungarala.ShudderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shudder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4AA9ECB2172811600804CC6 /* Build configuration list for PBXProject "Shudder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA9EF62172811800804CC6 /* Debug */,
+				C4AA9EF72172811800804CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AA9EF82172811800804CC6 /* Build configuration list for PBXNativeTarget "Shudder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA9EF92172811800804CC6 /* Debug */,
+				C4AA9EFA2172811800804CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AA9EFB2172811800804CC6 /* Build configuration list for PBXNativeTarget "ShudderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA9EFC2172811800804CC6 /* Debug */,
+				C4AA9EFD2172811800804CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AA9EFE2172811800804CC6 /* Build configuration list for PBXNativeTarget "ShudderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AA9EFF2172811800804CC6 /* Debug */,
+				C4AA9F002172811800804CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4AA9EC82172811600804CC6 /* Project object */;
+}
