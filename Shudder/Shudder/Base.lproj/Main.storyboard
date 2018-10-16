@@ -5,6 +5,7 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -30,7 +31,7 @@
                                                 <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9qW-RM-eq3">
                                                     <rect key="frame" x="0.0" y="5" width="375" height="222"/>
                                                     <connections>
-                                                        <segue destination="OOn-qt-vV7" kind="embed" identifier="Hero" id="6oK-J3-HhR"/>
+                                                        <segue destination="tb8-h1-xnH" kind="embed" identifier="Hero" id="V9V-XJ-pwR"/>
                                                     </connections>
                                                 </containerView>
                                             </subviews>
@@ -53,7 +54,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Newly Added" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I4q-rO-5sU">
                                                     <rect key="frame" x="16" y="11" width="359" height="20"/>
                                                     <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
-                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g7r-xT-siD">
@@ -207,7 +208,7 @@
                                         <rect key="frame" x="0.0" y="1392" width="375" height="232"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WTf-ZX-YwL" id="oBM-cz-Ntg">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="232"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="231.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black Magick" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BST-cj-yv1">
@@ -239,7 +240,7 @@
                                         <rect key="frame" x="0.0" y="1624" width="375" height="232"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QU9-vB-sn2" id="wIO-3P-01Y">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="232"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="231.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Haunts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBo-vG-cb4">
@@ -271,7 +272,7 @@
                                         <rect key="frame" x="0.0" y="1856" width="375" height="232"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hxk-6z-3fz" id="md0-ss-ldn">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="232"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="231.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Binge This" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QOQ-Od-iBm">
@@ -354,15 +355,15 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" reuseIdentifier="MoviePosterCollectionViewCell" id="GdJ-tz-f3s" customClass="MoviePosterCollectionViewCell" customModule="Shudder" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MoviePosterCollectionViewCell" id="GdJ-tz-f3s" customClass="MoviePosterCollectionViewCell" customModule="Shudder" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="22" width="100" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                     <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="o4r-d8-4wG">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="0.0"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="o4r-d8-4wG" customClass="CustomImageView" customModule="Shudder" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="150"/>
                                             <accessibility key="accessibilityConfiguration">
                                                 <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
                                             </accessibility>
@@ -376,7 +377,7 @@
                                     <constraint firstAttribute="bottom" secondItem="o4r-d8-4wG" secondAttribute="bottom" id="kcG-er-wn7"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="posterImageView" destination="o4r-d8-4wG" id="4gm-wh-ae7"/>
+                                    <outlet property="posterImageView" destination="o4r-d8-4wG" id="CdB-Xl-eGA"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -390,11 +391,33 @@
             </objects>
             <point key="canvasLocation" x="3599" y="-556"/>
         </scene>
+        <!--Data Source-->
+        <scene sceneID="FV0-q8-vKn">
+            <objects>
+                <viewController title="Hero View Controller" id="tb8-h1-xnH" customClass="HeroViewController" customModule="Shudder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G2I-CZ-VFT" customClass="iCarousel">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="222"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.08235294118" green="0.1215686275" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="FOf-8Y-qP0"/>
+                        <connections>
+                            <outlet property="dataSource" destination="tb8-h1-xnH" id="yM5-aj-UYW"/>
+                            <outlet property="delegate" destination="tb8-h1-xnH" id="gdr-zs-5is"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="carouselView" destination="G2I-CZ-VFT" id="kui-M1-28O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UCS-6G-4VJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2724" y="-29"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Logo" width="360" height="360"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mu2-g2-8UT"/>
+        <segue reference="UKa-2J-WJe"/>
     </inferredMetricsTieBreakers>
 </document>

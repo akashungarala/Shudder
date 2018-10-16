@@ -10,18 +10,10 @@ import UIKit
 
 class MoviePosterCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var posterImageView: UIImageView!
+    @IBOutlet weak var posterImageView: CustomImageView!
     
     func configureCell(_ photoUrl: String) {
-        if let url = URL(string: photoUrl) {
-            DispatchQueue.global().async {
-                if let data = try? Data(contentsOf: url) {
-                    DispatchQueue.main.async {
-                        self.posterImageView.image = UIImage(data: data)
-                    }
-                }
-            }
-        }
+        posterImageView.loadImageUsingUrlString(urlString: photoUrl)
     }
     
     override func layoutSubviews() {

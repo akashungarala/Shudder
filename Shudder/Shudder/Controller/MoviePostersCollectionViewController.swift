@@ -8,7 +8,8 @@
 
 import UIKit
 
-private let reuseIdentifier = "MoviePosterCollectionViewCell"
+// Setting the reusable identifier for the collection view cell
+private let reuseIdentifier = Resources.ReuseIdentifier.moviePoster
 
 class MoviePostersCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
@@ -18,6 +19,11 @@ class MoviePostersCollectionViewController: UICollectionViewController, UICollec
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchMoviePosters()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.collectionView?.reloadData()
     }
 
     // MARK: UICollectionViewDataSource
@@ -40,37 +46,24 @@ class MoviePostersCollectionViewController: UICollectionViewController, UICollec
         return moviePosterCollectionViewCell
     }
     
-    override func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
-        if category == MovieCategory.hero {
-            let layout = self.collectionView?.collectionViewLayout as! UICollectionViewFlowLayout
-            let cellWidthncludingSpacing = layout.itemSize.width + layout.minimumLineSpacing
-            var offset = targetContentOffset.pointee
-            let index = (offset.x + scrollView.contentInset.left) / cellWidthncludingSpacing
-            let roundedIndex = round(index)
-            offset = CGPoint(x: roundedIndex * cellWidthncludingSpacing - scrollView.contentInset.left, y: -scrollView.contentInset.top)
-            targetContentOffset.pointee = offset
-        }
-    }
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        if category == MovieCategory.hero {
-            return CGSize(width: (collectionView.bounds.width), height: collectionView.bounds.height)
-        }
         return CGSize(width: (collectionView.bounds.height * 9) / 16, height: collectionView.bounds.height)
     }
     
     func fetchMoviePosters() {
         FlickrAPI.sharedInstance.fetchPhotoIds(movieCategory: category) { (moviePosters) in
-            for index in 0...(moviePosters.count-1) {
-                FlickrAPI.sharedInstance.fetchPhotoUrl(id: moviePosters[index].id, completion: { (url) in
-                    moviePosters[index].url = url
-                    if index == moviePosters.count-1 {
-                        self.moviePosters = moviePosters
-                        self.collectionView?.reloadData()
-                    }
-                })
+            if moviePosters.count > 0 {
+                for index in 0...(moviePosters.count-1) {
+                    FlickrAPI.sharedInstance.fetchPhotoUrl(id: moviePosters[index].id, completion: { (url) in
+                        moviePosters[index].url = url
+                        if index == moviePosters.count-1 {
+                            self.moviePosters = moviePosters
+                            self.collectionView?.reloadData()
+                        }
+                    })
+                }
+                self.collectionView?.reloadData()
             }
-            self.collectionView?.reloadData()
         }
     }
 

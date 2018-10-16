@@ -27,10 +27,11 @@ class FlickrAPI: NSObject {
     }
     
     static func fetchGetRecentUrl(movieCategory: MovieCategory) -> String {
-        let per_page_value = "50"
+        var per_page_value = "25"
         var page_value = ""
         switch movieCategory {
         case .hero:
+            per_page_value = "5"
             page_value = "1"
             break
         case .newly_added:
